@@ -181,7 +181,6 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
                           txReceipt.events[1].args.requestId,
                           raffle.address
                       )
-                      console.log("Finish")
                   })
               })
           })
